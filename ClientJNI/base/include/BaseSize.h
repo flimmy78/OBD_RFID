@@ -1,0 +1,37 @@
+/**
+ * @file BaseSize.h
+ * @brief all DEF
+ * @author Fude
+ * @version Ver 0.1 2017
+ * 
+ */
+
+#ifndef _BASE_SIZE_H_
+#define _BASE_SIZE_H_
+
+#define FILE_STRING_LEN 256
+#define NAME_STRING_LEN 255
+#define BASE_STRING_LEN_MIN 256
+#define SOCKET_STRING_DATA_TAGET 28
+#define SOCKET_DATA_CONNECT_LEN 8
+#define SOCKET_DATA_CONNECT_UDP_FLAG 32
+#define SOCKET_DATA_CONNECT_FLAG 24
+#define SOCKET_DATA_CMDPACKET_MINLEN 12
+#define SOCKET_DATA_CMDPACKET_MIN_WAIT_TIME 200 //ms
+#define SOCKET_WAIT_TIME 500 //ms
+#define SOCKET_WAIT_TIME_FOR_SELECT 5 //s
+#define SOCKET_WAIT_TIME_FOR_SENDTO 10 //ms
+#define SOCKET_APPLY_COUNT 5
+#define TIME_STRING_LEN 128
+#define IDATA_STRING_LEN 64
+#define SOCKET_PORT_MIN 1
+#define SOCKET_PORT_MAX 65535
+
+#define BASE_STRING_LEN_MAX 1024
+#define MAX_FILE_SIZE   1073741824
+#define SQL_CMD_MAX       40960
+#define SQL_CMD_CANDIDATE       40832  
+#define JS_DATA_MAX       2097152
+
+#endif //end _BASE_SIZE_H_
+
